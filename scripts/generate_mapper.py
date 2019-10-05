@@ -73,7 +73,7 @@ class TFMapper(object):
 
 if __name__ == '__main__':
     """
-    subscribe pose and publish reference map matched pose
+    subscribe pose and reference pose and save transform factors.
     """
 
     rospy.init_node('generate_mapper')
