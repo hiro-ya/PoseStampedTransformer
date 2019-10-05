@@ -1,0 +1,10 @@
+<launch>
+    <group ns="posestamped_transformer">
+        <node pkg="posestamped_transformer" name="transform_pose" type="transform_pose.py">
+            <param name="sub_pose_topic" value="/openvslam_pose" />
+            <param name="pub_pose_topic" value="/openvslam_pose/transformed" />
+            <param name="hz" value="10" />
+            <param name="transform_factors_file_path" value="" />
+        </node>
+    </group>
+</launch>
