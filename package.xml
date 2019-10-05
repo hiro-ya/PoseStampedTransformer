@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>posestamped_transformer</name>
+  <version>0.1.0</version>
+  <description>The posestamped_transformer package</description>
+
+  <maintainer email="hiro-ya-iv@gmail.com">hiro-ya-iv</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>posetf</exec_depend>
+</package>
