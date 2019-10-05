@@ -1,0 +1,12 @@
+<launch>
+    <group ns="posestamped_transformer">
+        <node pkg="posestamped_transformer" name="generate_mapper" type="generate_mapper.py">
+            <param name="ref_pose_topic" value="/current_pose" />
+            <param name="pose_topic" value="/openvslam_pose" />
+            <param name="hz" value="0.5" />
+            <param name="time_tolerance" value="1e-2" />
+            <param name="position_tolerance" value="1.0" />
+            <param name="transform_factors_file_path" value="" />
+        </node>
+    </group>
+</launch>
